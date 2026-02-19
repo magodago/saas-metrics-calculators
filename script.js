@@ -1,0 +1,1 @@
+document.querySelector('.lead-form')?.addEventListener('submit',function(e){e.preventDefault();alert('Thank you!');});
