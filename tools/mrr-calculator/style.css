@@ -1,0 +1,45 @@
+<style>
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 15px;
+}
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.resultArea {
+    margin-top: 20px;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+#mrrResult {
+    font-size: 1.5em;
+    color: #28a745;
+}
+</style>
